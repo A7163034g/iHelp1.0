@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iHelp1.0</string>
+    <string name="text_ingresa_t_contrasena">Enter  Password</string>
+    <string name="text_ingresa_t_usuario">Enter  identity document</string>
+    <string name="text_usuario">Identity document</string>
+    <string name="text_contrasena">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="text_registrarse">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="text_olvido_su_contrase_a">Forgot  password?</string>
+</resources>

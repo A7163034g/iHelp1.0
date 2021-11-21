@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".FrequentCases">
+
+    <LinearLayout
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/text_casos_frecuentes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_casos_frecuentes"
+            android:textColor="@color/blue_500"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_buscador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_title"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_weight="2"
+            android:background="#E1DCDC" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_buscador"
+        app:layout_constraintVertical_bias="0.0">
+
+        <SearchView
+            android:id="@+id/buscar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="#FFE1DCDC" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:id="@+id/bt_solicitar_soporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones"
+            android:shadowColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:text="@string/text_solicitar_soporte"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/bt_cerrar_sesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones"
+            android:shadowColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:text="@string/text_cerrar_sesi_n"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

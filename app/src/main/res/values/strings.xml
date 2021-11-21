@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">iHelp1.0</string>
+    <string name="text_ingresa_t_contrasena">Ingresa su contraseña</string>
+    <string name="text_ingresa_t_usuario">Ingresa su documento</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="text_usuario">Documento de indentidad</string>
+    <string name="text_contrasena">Contraseña</string>
+    <string name="text_registrarse">Registrarse</string>
+    <string name="text_olvido_su_contrase_a">Olvido su contraseña?</string>
+    <string name="text_bienvenido" translatable="false">Bienvenid@</string>
+    <string name="text_cerrar_sesi_n" translatable="false">Cerrar sesión</string>
+    <string name="text_crear_caso" translatable="false">Crear caso</string>
+    <string name="text_mis_casos" translatable="false">Mis casos</string>
+    <string name="text_mis_tickets">mis tickets</string>
+    <string name="text_tickets_sin_asignar">tickets sin asignar</string>
+    <string name="text_tickets_resueltos">tickets resueltos</string>
+    <string name="text_registrar_usuario">Registrar Usuario</string>
+    <string name="text_e_mail">E-mail</string>
+    <string name="text_canacelar">Canacelar</string>
+    <string name="text_resgistrarme">Resgistrarme</string>
+    <string name="text_ingresa_su_e_mail">Ingresa su E-mail</string>
+    <string name="text_recuperar">RECUPERAR</string>
+    <string name="text_casos_frecuentes">Casos frecuentes</string>
+    <string name="text_detalles">Detalles</string>
+    <string name="text_solicitar_soporte">Solicitar soporte</string>
+    <string name="text_inicio">inicio</string>
+</resources>

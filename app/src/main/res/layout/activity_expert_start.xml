@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".ExpertStart">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.20">
+
+        <TextView
+            android:id="@+id/text_bienvenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="@string/text_bienvenido"
+            android:textColor="@color/blue_500"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nombre_del_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:hint="Nombre del tecnico "
+            android:inputType="number"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/bt_mis_tickets"
+            android:layout_width="176dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/botones"
+            android:shadowColor="@color/black"
+            android:text="@string/text_mis_tickets"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/bt_tickets_sin_asignar"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/botones"
+            android:shadowColor="@color/black"
+            android:text="@string/text_tickets_sin_asignar"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/bt_tickets_resueltos"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/botones"
+            android:shadowColor="@color/black"
+            android:text="@string/text_tickets_resueltos"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/bt_cerrar_sesion"
+            android:layout_width="176dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/botones"
+            android:shadowColor="@color/black"
+            android:text="@string/text_cerrar_sesi_n"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
