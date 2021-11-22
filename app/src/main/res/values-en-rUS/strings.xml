@@ -9,4 +9,22 @@
     <string name="text_registrarse">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="text_olvido_su_contrase_a">Forgot  password?</string>
+    <string name="text_bienvenido">Welcome</string>
+    <string name="text_cerrar_sesi_n">English</string>
+    <string name="text_crear_caso">English</string>
+    <string name="text_mis_casos">English</string>
+    <string name="text_mis_tickets">English</string>
+    <string name="text_tickets_sin_asignar">English</string>
+    <string name="text_tickets_resueltos">English</string>
+    <string name="text_registrar_usuario">English</string>
+    <string name="text_e_mail">English</string>
+    <string name="text_canacelar">English</string>
+    <string name="text_resgistrarme">English</string>
+    <string name="text_ingresa_su_e_mail">English</string>
+    <string name="text_recuperar">English</string>
+    <string name="text_casos_frecuentes">English</string>
+    <string name="text_detalles">English</string>
+    <string name="text_solicitar_soporte">English</string>
+    <string name="text_inicio">English</string>
+    <string name="text_tickets_cerrados">English</string>
 </resources>

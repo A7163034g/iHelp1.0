@@ -9,6 +9,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IHelp10">
         <activity
+            android:name=".Case"
+            android:exported="false" />
+        <activity
+            android:name=".Ticket"
+            android:exported="false" />
+        <activity
+            android:name=".TicketsClosed"
+            android:exported="false" />
+        <activity
+            android:name=".UnassignedTickets"
+            android:exported="false" />
+        <activity
+            android:name=".MyTickets"
+            android:exported="false" />
+        <activity
             android:name=".CreateCase"
             android:exported="false" />
         <activity
