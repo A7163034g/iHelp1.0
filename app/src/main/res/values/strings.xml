@@ -28,4 +28,10 @@
     <string name="text_tickets_cerrados">Tickets Resueltos</string>
     <string name="text_casos">Casos</string>
     <string name="text_ticket">Ticket</string>
+    <string name="text_categorias">Categorias</string>
+
+    <string-array name="categorias">
+        <item>Internet</item>
+        <item>Televisiòn</item>
+    </string-array>
 </resources>

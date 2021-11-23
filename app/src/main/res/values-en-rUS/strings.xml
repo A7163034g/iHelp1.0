@@ -27,4 +27,6 @@
     <string name="text_solicitar_soporte">English</string>
     <string name="text_inicio">English</string>
     <string name="text_tickets_cerrados">English</string>
+    <string name="text_casos">English</string>
+    <string name="text_ticket">English</string>
 </resources>

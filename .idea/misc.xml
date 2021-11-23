@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_case.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_client_start.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_create_case.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_expert_start.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_frequent_cases.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_my_cases.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_my_tickets.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_sing_in.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_ticket.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_tickets_closed.xml" value="0.25" />
+        <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp/app/src/main/res/layout/activity_unassigned_tickets.xml" value="0.25" />
         <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp1.0/app/src/main/res/layout/activity_cases.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp1.0/app/src/main/res/layout/activity_client_start.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp1.0/app/src/main/res/layout/activity_create_case.xml" value="0.1574074074074074" />

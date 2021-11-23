@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //finish();
+
 
         bt_login=findViewById(R.id.bt_login);
 
