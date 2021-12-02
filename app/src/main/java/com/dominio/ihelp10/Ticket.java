@@ -26,6 +26,7 @@ public class Ticket extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Cerrando sesión..." , Toast.LENGTH_LONG).show();
                 Intent intent =new Intent(Ticket.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

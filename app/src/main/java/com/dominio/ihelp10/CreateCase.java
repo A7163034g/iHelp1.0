@@ -35,6 +35,7 @@ public class CreateCase extends AppCompatActivity {
 
                 Intent intent =new Intent(CreateCase.this, MyCases.class);
                 startActivity(intent);
+                finish();
             }
         });
 

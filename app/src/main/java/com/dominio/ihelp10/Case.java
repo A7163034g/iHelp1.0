@@ -26,6 +26,7 @@ public class Case extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Cerrando sesión..." , Toast.LENGTH_LONG).show();
                 Intent intent =new Intent(Case.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

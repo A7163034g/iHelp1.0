@@ -27,6 +27,7 @@ public class FrequentCases extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Cerrando sesión..." , Toast.LENGTH_LONG).show();
                 Intent intent =new Intent(FrequentCases.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 

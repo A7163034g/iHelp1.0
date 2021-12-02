@@ -27,7 +27,7 @@ public class SingIn extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Registrado correctamente" , Toast.LENGTH_LONG).show();
                 Intent intent =new Intent(SingIn.this, MainActivity.class);
                 startActivity(intent);
-                finish();
+
             }
         });
 

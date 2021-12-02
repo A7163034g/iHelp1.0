@@ -10,27 +10,35 @@
         android:theme="@style/Theme.IHelp10">
         <activity
             android:name=".Case"
+            android:parentActivityName=".MyCases"
             android:exported="false" />
         <activity
             android:name=".Ticket"
+            android:parentActivityName=".ExpertStart"
             android:exported="false" />
         <activity
             android:name=".TicketsClosed"
+            android:parentActivityName=".ExpertStart"
             android:exported="false" />
         <activity
             android:name=".UnassignedTickets"
+            android:parentActivityName=".ExpertStart"
             android:exported="false" />
         <activity
             android:name=".MyTickets"
+            android:parentActivityName=".ExpertStart"
             android:exported="false" />
         <activity
             android:name=".CreateCase"
+            android:parentActivityName=".FrequentCases"
             android:exported="false" />
         <activity
             android:name=".FrequentCases"
+            android:parentActivityName=".ClientStart"
             android:exported="false" />
         <activity
             android:name=".MyCases"
+            android:parentActivityName=".ClientStart"
             android:exported="false" />
         <activity
             android:name=".ExpertStart"
@@ -40,10 +48,12 @@
             android:exported="false" />
         <activity
             android:name=".ForgotPassword"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".SingIn"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

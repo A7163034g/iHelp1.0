@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MyCases extends AppCompatActivity {
 
-    private Button bt_cerrar_sesion;
+    public Button bt_cerrar_sesion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,7 @@ public class MyCases extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Cerrando sesión..." , Toast.LENGTH_LONG).show();
                 Intent intent =new Intent(MyCases.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
