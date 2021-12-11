@@ -14,6 +14,8 @@ import com.dominio.ihelp10.R;
 import com.dominio.ihelp10.controladores.RegistroControlador;
 import com.dominio.ihelp10.utils.ValidarCorreo;
 
+import java.util.Locale;
+
 public class SignIn extends AppCompatActivity {
 
     private Button bt_registrame;
@@ -48,9 +50,6 @@ public class SignIn extends AppCompatActivity {
                 } else {
                     Toast.makeText(SignIn.this,"Ingreso de datos no validos, por favor intente nuevamente",Toast.LENGTH_LONG).show();
                 }
-
-
-
             }
         });
 
@@ -63,15 +62,15 @@ public class SignIn extends AppCompatActivity {
         String contrasena= getContrasena().trim();
         String confirmarcontrasena= getConfirmarcontrasena().trim();
         String nombre= getNombre().trim();
-        String tipo= getTipo().trim();
+        String tipo= getTipo().trim().toLowerCase(Locale.ROOT);
 
-        return ValidarCorreo.validar(email) && cedula.length() > 2 && contrasena.length() > 5 && confirmarcontrasena.equals(contrasena);
+        return ValidarCorreo.validar(email) && cedula.length() > 2 && contrasena.length() > 5 && confirmarcontrasena.equals(contrasena) && nombre.length()>2 && (tipo.equals("cliente") || tipo.equals("trabajador"));
     }
 
     public String getCedula() {
         return text_cedula.getText().toString();
-
-    }    public String getNombre() {
+    }
+    public String getNombre() {
         return et_nombre.getText().toString();
     }
 

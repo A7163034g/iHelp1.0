@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">iHelp1.0</string>
-    <string name="text_ingresa_t_contrasena">Ingresa su contraseña</string>
-    <string name="text_ingresa_t_usuario">Ingresa su documento</string>
+    <string name="text_ingresa_t_contrasena">Ingrese su contraseña</string>
+    <string name="text_ingresa_t_usuario">Ingrese su documento</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="action_sign_in">Ingresar</string>
     <string name="text_usuario">Documento de indentidad</string>
@@ -19,7 +19,7 @@
     <string name="text_e_mail">E-mail</string>
     <string name="text_canacelar">Canacelar</string>
     <string name="text_resgistrarme">Resgistrarme</string>
-    <string name="text_ingresa_su_e_mail">Ingresa su E-mail</string>
+    <string name="text_ingresa_su_e_mail">Ingrese su E-mail</string>
     <string name="text_recuperar">RECUPERAR</string>
     <string name="text_casos_frecuentes">Casos frecuentes</string>
     <string name="text_detalles">Detalles</string>
