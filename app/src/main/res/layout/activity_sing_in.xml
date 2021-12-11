@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_color"
-    tools:context=".SingIn">
+    tools:context=".vistas.SignIn">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -32,12 +32,41 @@
 
 
         <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="50dp"
+            android:text="Nombre completo"
+            android:textColor="@color/blue_500"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:hint="Ingrese el nombre completo"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
             android:id="@+id/text_usuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="50dp"
             android:text="@string/text_usuario"
@@ -46,7 +75,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/text_usernameR"
+            android:id="@+id/text_cedula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -61,41 +90,12 @@
             tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
-            android:id="@+id/text_contrasena"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:text="@string/text_contrasena"
-            android:textColor="@color/blue_500"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/text_username2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:hint="@string/text_ingresa_t_contrasena"
-            android:inputType="textPassword"
-            android:selectAllOnFocus="true"
-            android:singleLine="false"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <TextView
             android:id="@+id/text_correo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:text="@string/text_e_mail"
@@ -118,6 +118,94 @@
             android:inputType="textEmailAddress"
             android:selectAllOnFocus="true"
             tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tv_tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="@string/text_contrasena"
+            android:textColor="@color/blue_500"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:hint="Usuario o tecnico"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:id="@+id/tv_contrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="@string/text_contrasena"
+            android:textColor="@color/blue_500"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:hint="@string/text_ingresa_t_contrasena"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tv_confirmarcontrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="Confirmar contraseña"
+            android:textColor="@color/blue_500"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/text_confirmarcontrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:hint="Ingrese nuevamente su contraseña"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            tools:ignore="TouchTargetSizeCheck" />
+
 
         <Button
             android:id="@+id/bt_registrame"

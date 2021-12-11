@@ -1,4 +1,4 @@
-package com.dominio.ihelp10;
+package com.dominio.ihelp10.vistas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import java.util.PrimitiveIterator;
+import com.dominio.ihelp10.MainActivity;
+import com.dominio.ihelp10.R;
 
 public class ExpertStart extends AppCompatActivity {
 
@@ -55,7 +56,7 @@ public class ExpertStart extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent =new Intent(ExpertStart.this,UnassignedTickets.class);
+                Intent intent =new Intent(ExpertStart.this, UnassignedTickets.class);
                 startActivity(intent);
 
 

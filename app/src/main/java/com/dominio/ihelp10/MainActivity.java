@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.dominio.ihelp10.vistas.ClientStart;
+import com.dominio.ihelp10.vistas.ForgotPassword;
+import com.dominio.ihelp10.vistas.SignIn;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -60,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Toast.makeText(getApplicationContext(), "Reistro" , Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(MainActivity.this, SingIn.class);
+                Intent intent = new Intent(MainActivity.this, SignIn.class);
                 startActivity(intent);
 
             }

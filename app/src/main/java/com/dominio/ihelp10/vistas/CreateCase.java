@@ -1,14 +1,16 @@
-package com.dominio.ihelp10;
+package com.dominio.ihelp10.vistas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.dominio.ihelp10.MainActivity;
+import com.dominio.ihelp10.R;
 
 public class CreateCase extends AppCompatActivity {
 

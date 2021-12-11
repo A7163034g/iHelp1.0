@@ -43,6 +43,8 @@
         <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp10/app/src/main/res/layout/activity_sing_in.xml" value="0.18" />
         <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp10/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
         <entry key="..\:/Users/ANCK1/AndroidStudioProjects/iHelp10/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1712962962962963" />
+        <entry key="app/src/main/res/drawable/splash.xml" value="0.44166666666666665" />
+        <entry key="app/src/main/res/layout/activity_case.xml" value="0.24427083333333333" />
         <entry key="app/src/main/res/layout/activity_client_start.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_create_case.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_expert_start.xml" value="0.6109375" />
@@ -50,7 +52,8 @@
         <entry key="app/src/main/res/layout/activity_frequent_cases.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_my_cases.xml" value="0.5" />
-        <entry key="app/src/main/res/layout/activity_sing_in.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_sing_in.xml" value="0.3776018315781435" />
+        <entry key="app/src/main/res/layout/activity_unassigned_tickets.xml" value="0.24427083333333333" />
       </map>
     </option>
   </component>

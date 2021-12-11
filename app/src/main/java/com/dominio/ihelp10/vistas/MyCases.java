@@ -1,4 +1,4 @@
-package com.dominio.ihelp10;
+package com.dominio.ihelp10.vistas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,15 +8,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class FrequentCases extends AppCompatActivity {
+import com.dominio.ihelp10.MainActivity;
+import com.dominio.ihelp10.R;
 
-    private Button bt_cerrar_sesion;
-    private Button bt_solicitar_soporte;
+public class MyCases extends AppCompatActivity {
+
+    public Button bt_cerrar_sesion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_frequent_cases);
+        setContentView(R.layout.activity_my_cases);
 
         bt_cerrar_sesion=findViewById(R.id.bt_cerrar_sesion);
 
@@ -25,25 +27,11 @@ public class FrequentCases extends AppCompatActivity {
             public void onClick(View v) {
 
                 Toast.makeText(getApplicationContext(), "Cerrando sesión..." , Toast.LENGTH_LONG).show();
-                Intent intent =new Intent(FrequentCases.this, MainActivity.class);
+                Intent intent =new Intent(MyCases.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
-
-        bt_solicitar_soporte=findViewById(R.id.bt_solicitar_soporte);
-
-        bt_solicitar_soporte.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent =new Intent(FrequentCases.this, CreateCase.class);
-                startActivity(intent);
-            }
-        });
-
-
-
 
     }
 }

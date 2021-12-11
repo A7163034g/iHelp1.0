@@ -1,4 +1,4 @@
-package com.dominio.ihelp10;
+package com.dominio.ihelp10.vistas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,14 +8,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MyCases extends AppCompatActivity {
+import com.dominio.ihelp10.MainActivity;
+import com.dominio.ihelp10.R;
 
-    public Button bt_cerrar_sesion;
+public class TicketsClosed extends AppCompatActivity {
+
+    private Button bt_cerrar_sesion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_cases);
+        setContentView(R.layout.activity_tickets_closed);
 
         bt_cerrar_sesion=findViewById(R.id.bt_cerrar_sesion);
 
@@ -24,11 +27,10 @@ public class MyCases extends AppCompatActivity {
             public void onClick(View v) {
 
                 Toast.makeText(getApplicationContext(), "Cerrando sesión..." , Toast.LENGTH_LONG).show();
-                Intent intent =new Intent(MyCases.this, MainActivity.class);
+                Intent intent =new Intent(TicketsClosed.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
-
     }
 }
