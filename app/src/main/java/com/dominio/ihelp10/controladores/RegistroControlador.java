@@ -4,13 +4,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import androidx.activity.result.contract.ActivityResultContract;
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 
 import com.dominio.ihelp10.MainActivity;
+import com.dominio.ihelp10.modelos.ConstantesFirebase;
 import com.dominio.ihelp10.modelos.Usuario;
-import com.dominio.ihelp10.vistas.SignIn;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

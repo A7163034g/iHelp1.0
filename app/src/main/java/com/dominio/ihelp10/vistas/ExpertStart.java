@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.dominio.ihelp10.MainActivity;
@@ -17,6 +19,7 @@ public class ExpertStart extends AppCompatActivity {
     private Button bt_mis_tickets;
     private Button bt_tickets_sin_asignar;
     private Button bt_tickets_resueltos;
+    private EditText nombre_del_cliente;
 
 
     @Override
@@ -25,6 +28,7 @@ public class ExpertStart extends AppCompatActivity {
         setContentView(R.layout.activity_expert_start);
 
         bt_cerrar_sesion=findViewById(R.id.bt_cerrar_sesion);
+        nombre_del_cliente=findViewById(R.id.nombre_del_cliente);
 
         bt_cerrar_sesion.setOnClickListener(new View.OnClickListener() {
             @Override

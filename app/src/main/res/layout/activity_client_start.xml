@@ -32,7 +32,7 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/nombre_del_cliente"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,9 +41,9 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
-            android:enabled="false"
-            android:hint="Nombre del cliente "
-            android:inputType="number"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             android:selectAllOnFocus="false"
             android:singleLine="false"
             tools:ignore="TouchTargetSizeCheck" />

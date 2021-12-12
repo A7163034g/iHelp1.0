@@ -1,4 +1,4 @@
-package com.dominio.ihelp10.controladores;
+package com.dominio.ihelp10.modelos;
 
 public class ConstantesFirebase {
 
